@@ -3,9 +3,9 @@ import React from 'react'
 
 const Square = ({value}) => {
   return (
-    
-      <button type="button">{value}</button>
-    
+    <div className='square'>
+      <button type="button" className='btn'>{value}</button>
+      </div>
   )
 }
 
